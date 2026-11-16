@@ -3,216 +3,164 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6ef">
   <title>TRUSS | International Sourcing &amp; Procurement</title>
-  <meta name="description" content="TRUSS helps businesses worldwide find and evaluate international manufacturers, compare quotations and coordinate sourcing before they buy.">
-  <meta name="theme-color" content="#0B2F2A">
+  <meta name="description" content="TRUSS helps businesses source products and materials internationally, with buyer-side supplier research, due diligence and procurement support.">
   <meta property="og:type" content="website">
   <meta property="og:title" content="TRUSS | International Sourcing &amp; Procurement">
-  <meta property="og:description" content="Independent, buyer-side support for finding and evaluating international manufacturers.">
+  <meta property="og:description" content="Find manufacturers, compare quotations and buy internationally with independent sourcing support.">
   <link rel="icon" href="assets/truss-mark.svg" type="image/svg+xml">
-  <link rel="preload" href="assets/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/bricolage-grotesque.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="site.css">
   <script src="site.js" defer></script>
 </head>
 <body id="top">
   <svg class="icon-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <symbol id="i-mark" viewBox="0 0 36 32"><path fill="currentColor" d="M3 4h20l-6 7H3L0 8Zm22 0h11l-8 7h-8Zm-6 8h8L17 27l-6-6Z"/><path fill="#9d9f8d" d="m11 21 6 6H6Z"/></symbol>
-    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-mark" viewBox="0 0 36 32"><path fill="currentColor" d="M3 4h20l-6 7H3L0 8Zm22 0h11l-8 7h-8Zm-6 8h8L17 27l-6-6Z"/><path fill="currentColor" opacity=".45" d="m11 21 6 6H6Z"/></symbol>
     <symbol id="i-out" viewBox="0 0 24 24"><path d="M6 18 18 6M8 6h10v10"/></symbol>
     <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14m-6-6 6 6 6-6"/></symbol>
     <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></symbol>
     <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
-    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 11.5a9 9 0 0 1-13.3 7.9L3 21l1.5-4.5A9 9 0 1 1 21 11.5Z"/><path d="M8.5 8h0c0 3.6 2.4 6 6 6l1-1.6-2-1.1-.8.7c-.9-.4-1.5-1-1.9-1.9l.6-.8-1.1-2L8.5 8Z"/></symbol>
-    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4.5 4.5M8.5 10.5h4m-2-2v4"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="5.5"/><path d="m15 15 4.5 4.5"/></symbol>
     <symbol id="i-check" viewBox="0 0 24 24"><path d="M12 21s7-3 7-9V6l-7-3-7 3v6c0 6 7 9 7 9Z"/><path d="m9 12 2 2 4-4"/></symbol>
-    <symbol id="i-compare" viewBox="0 0 24 24"><path d="M4 20h16M6 16V9m6 7V5m6 11v-5M4.5 9h3m3-4h3m3 6h3"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M5 3h9l5 5v13H5V3Zm9 0v5h5M8 11h7m-7 3h7m-7 3h4"/></symbol>
     <symbol id="i-terms" viewBox="0 0 24 24"><path d="M3 8h17m-4-4 4 4-4 4m5 4H4m4-4-4 4 4 4"/></symbol>
     <symbol id="i-sample" viewBox="0 0 24 24"><path d="m12 3 9 5v8l-9 5-9-5V8l9-5ZM3 8l9 5 9-5m-9 5v8m-4.5-15.5 9 5V14"/></symbol>
-    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 4.5-9 4.5-9-4.5L12 3Zm9 9L12 17l-9-5m18 5-9 4.5L3 17"/></symbol>
-    <symbol id="i-clipboard" viewBox="0 0 24 24"><path d="M8 5H5v16h14V5h-3M9 3h6l1 4H8l1-4Z"/><path d="m8.5 14 2.3 2.3L16 11"/></symbol>
-    <symbol id="i-coins" viewBox="0 0 24 24"><ellipse cx="15.5" cy="5.5" rx="5.5" ry="2.5"/><path d="M10 5.5v5c0 1.4 2.5 2.5 5.5 2.5s5.5-1.1 5.5-2.5v-5M21 10.5v5c0 1.4-2.5 2.5-5.5 2.5"/><ellipse cx="7.5" cy="13.5" rx="5.5" ry="2.5"/><path d="M2 13.5v5C2 19.9 4.5 21 7.5 21s5.5-1.1 5.5-2.5v-5"/></symbol>
-    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5"/><path d="M12 6v6l3.5 2.5"/></symbol>
-    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M5 3h9l5 5v5m-5-10v5h5M5 3v18h8M8 9h3m-3 4h7m-7 4h3"/><circle cx="17.5" cy="17.5" r="3.5"/><path d="m16 17.5 1 1 2-2"/></symbol>
-    <symbol id="i-orders" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4m10-4v4M3 10h18m-13 5h3m2 0h3m-8 3h3"/></symbol>
-    <symbol id="i-tick" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
-    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 4.5 20 12 8 19.5Z"/></symbol>
-    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
   </svg>
-
-
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header">
     <div class="wrap header-inner">
       <a class="brand" href="#top" aria-label="TRUSS home"><svg aria-hidden="true"><use href="#i-mark"/></svg><span>TRUSS</span></a>
       <nav class="nav" id="site-navigation" aria-label="Main navigation">
-        <a href="#services">What We Do</a>
-        <a href="#industries">Industries</a>
-        <a href="#process">How It Works</a>
-        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#industries">Products</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
       </nav>
       <div class="header-actions">
-        <a class="button button-dark header-cta" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99d%20like%20to%20discuss%20a%20sourcing%20requirement." target="_blank" rel="noopener noreferrer"><span class="desktop-cta-text">Submit a Requirement</span><span class="mobile-cta-text">WhatsApp</span> <svg class="icon small" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-        <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation" hidden>
-          <svg class="icon " aria-hidden="true"><use href="#i-menu"/></svg>
-        </button>
+        <a class="button header-cta" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99d%20like%20to%20discuss%20a%20sourcing%20requirement." target="_blank" rel="noopener noreferrer">WhatsApp <svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a>
+        <button class="menu-toggle" type="button" aria-controls="site-navigation" aria-expanded="false" aria-label="Open navigation" hidden><svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg></button>
       </div>
     </div>
   </header>
 
   <main id="main" tabindex="-1">
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="wrap hero-inner">
-        <div class="hero-content">
-          <p class="hero-label">Global Sourcing &amp; Procurement</p>
-          <h1 id="hero-title">Tell us what you need.<br><em>We’ll find who can <span class="keep-together">make it.</span></em></h1>
-          <p class="hero-copy">Independent sourcing and procurement support for businesses buying products and materials from manufacturers worldwide.</p>
-          <div class="hero-actions">
-            <a class="button button-dark" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99m%20looking%20for%20a%20manufacturer%20and%20would%20like%20to%20share%20my%20requirements." target="_blank" rel="noopener noreferrer">Submit Your Requirement <svg class="icon small" aria-hidden="true"><use href="#i-arrow"/></svg></a>
-            <a class="button button-outline" href="#process"><svg class="icon small" aria-hidden="true"><use href="#i-play"/></svg> How It Works</a>
-          </div>
-          <ul class="hero-checks" aria-label="What TRUSS helps buyers with">
-          <li class="hero-check"><svg class="icon " aria-hidden="true"><use href="#i-check"/></svg><span>Supplier due diligence</span></li>
-          <li class="hero-check"><svg class="icon " aria-hidden="true"><use href="#i-layers"/></svg><span>Commercial clarity</span></li>
-          <li class="hero-check"><svg class="icon " aria-hidden="true"><use href="#i-clipboard"/></svg><span>Buyer-side support</span></li>
-          </ul>
+    <section class="hero wrap" aria-labelledby="hero-title">
+      <div class="hero-intro">
+        <h1 id="hero-title">Source globally.<br> Buy on your terms.</h1>
+        <div class="hero-copy">
+          <p>TRUSS is an independent sourcing agent. We help businesses find manufacturers worldwide, compare offers and agree what they’re buying before they order.</p>
+          <a class="button button-primary" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99m%20looking%20for%20a%20manufacturer%20and%20would%20like%20to%20share%20my%20requirements." target="_blank" rel="noopener noreferrer">Start a sourcing brief <svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a>
         </div>
       </div>
-      <picture class="hero-media">
-        <source media="(max-width: 760px)" srcset="assets/steel-tubes-small.webp">
-        <img src="assets/steel-tubes.webp" width="1200" height="800" alt="Stacked stainless steel tubes in a manufacturing facility." fetchpriority="high">
-      </picture>
+      <figure class="hero-figure">
+        <picture>
+          <source media="(max-width: 660px)" srcset="assets/sample-review-small.webp">
+          <img src="assets/sample-review.webp" width="1440" height="576" fetchpriority="high" alt="Two people examine a machined aluminium part against a technical drawing and finish samples.">
+        </picture>
+        <figcaption>
+          <a href="#services">Explore our services <svg class="icon" aria-hidden="true"><use href="#i-down"/></svg></a>
+          <span>Technical sample review · Illustrative image</span>
+        </figcaption>
+      </figure>
     </section>
 
-    <section class="problem-section" aria-labelledby="problem-title">
-      <div class="wrap problem-inner">
-        <div>
-          <p class="section-label">The Problem</p>
-          <h2 id="problem-title">Sourcing should<br> create value and<br> cut the work.</h2>
+    <section class="section services wrap" id="services" aria-labelledby="services-title">
+      <div class="section-grid">
+        <div class="section-intro">
+          <h2 id="services-title">Before you place the order.</h2>
+          <p>Get a shortlist, a side-by-side view of the terms and a record of what still needs checking.</p>
         </div>
-        <ul class="problems">
-          <li class="problem"><svg class="icon " aria-hidden="true"><use href="#i-search"/></svg><span>Hard to find reliable suppliers</span></li>
-          <li class="problem"><svg class="icon " aria-hidden="true"><use href="#i-coins"/></svg><span>Unclear or inconsistent pricing</span></li>
-          <li class="problem"><svg class="icon " aria-hidden="true"><use href="#i-clipboard"/></svg><span>Quality and specification gaps</span></li>
-          <li class="problem"><svg class="icon " aria-hidden="true"><use href="#i-clock"/></svg><span>Communication and lead-time delays</span></li>
+        <ul class="service-list">
+          <li><svg class="icon" aria-hidden="true"><use href="#i-search"/></svg><h3>Find manufacturers</h3><p>Search by product, production capability, order size and destination. Confirm which business would actually make the goods.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-check"/></svg><h3>Check supplier fit</h3><p>Review available business records, certificates and evidence of manufacturing capability. Flag gaps that need further verification.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-quote"/></svg><h3>Compare quotations</h3><p>Compare quotes against the same specification, including tooling, exclusions, order minimums, lead times and trade terms.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-terms"/></svg><h3>Negotiate commercial terms</h3><p>Help discuss price, payment milestones and production schedules. Record the agreed scope and terms before you commit.</p></li>
+          <li><svg class="icon" aria-hidden="true"><use href="#i-sample"/></svg><h3>Coordinate samples and checks</h3><p>Arrange samples with the manufacturer and coordinate independent third-party inspections where available.</p></li>
         </ul>
       </div>
     </section>
 
-    <section id="services" class="services dark-section" aria-labelledby="service-title">
-      <div class="wrap services-inner">
-        <div>
-          <p class="section-label">What We Do</p>
-          <h2 id="service-title">Sourcing support from brief to order.</h2>
-        </div>
-        <div class="service-list">
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-search"/></svg><span>Supplier Research<br>&amp; Shortlisting</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Identify manufacturers that match the product, production capability, order size and destination. Confirm who would make the goods.</p></details>
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-check"/></svg><span>Evaluation<br>&amp; Due Diligence</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Review available business records, relevant certificates and evidence of production capability. Flag gaps that need further verification.</p></details>
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-quote"/></svg><span>Quotation<br>Comparison</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Compare like-for-like quotes on unit price, tooling, minimum order quantities, lead times and trade terms.</p></details>
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-terms"/></svg><span>Negotiation<br>&amp; Commercial Terms</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Help negotiate pricing, payment milestones and production timelines. Record the specification and terms agreed with the supplier.</p></details>
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-sample"/></svg><span>Samples<br>&amp; Quality Checks</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Arrange supplier samples and coordinate independent third-party inspections where available against the agreed checklist.</p></details>
-          <details class="service"><summary><svg class="icon " aria-hidden="true"><use href="#i-orders"/></svg><span>Order Coordination<br>&amp; Follow-up</span><svg class="icon service-plus" aria-hidden="true"><use href="#i-plus"/></svg></summary><p>Follow up on production milestones within the agreed scope. Help clarify who handles freight and customs under the agreed trade terms.</p></details>
-        </div>
-      </div>
-    </section>
-
-    <section id="industries" class="industries" aria-labelledby="industry-title">
-      <div class="wrap industries-inner">
-        <div>
-          <p class="section-label">Industries We Support</p>
-          <h2 id="industry-title">Sourcing for real business needs.</h2>
-        </div>
-        <ul class="industry-list">
-          <li><img src="assets/industrial.webp" width="368" height="245" loading="lazy" alt="Stainless steel tubes"><div><h3>Industrial &amp; Engineering</h3><p>Machined parts, castings and fasteners.</p></div></li>
-          <li><img src="assets/construction.webp" width="368" height="245" loading="lazy" alt="Steel bars in a reinforcement grid"><div><h3>Construction &amp; Infrastructure</h3><p>Profiles, fittings and architectural finishes.</p></div></li>
-          <li><img src="assets/hospitality.webp" width="368" height="245" loading="lazy" alt="Hotel amenities and folded towels"><div><h3>Hospitality &amp; Amenities</h3><p>Linen, tableware and guest supplies.</p></div></li>
-          <li><img src="assets/electrical.webp" width="368" height="245" loading="lazy" alt="Cut copper electrical cables"><div><h3>Electrical &amp; MEP</h3><p>Cable accessories, connectors and enclosures.</p></div></li>
-          <li><img src="assets/packaging.webp" width="368" height="245" loading="lazy" alt="Sealed kraft cardboard cartons"><div><h3>Packaging &amp; OEM</h3><p>Cartons, labels and made-to-spec products.</p></div></li>
-        </ul>
-      </div>
-    </section>
-
-    <section id="process" class="process" aria-labelledby="process-title">
+    <section class="section industries" id="industries" aria-labelledby="industries-title">
       <div class="wrap">
-        <p class="section-label">How It Works</p>
-        <h2 id="process-title">A simple, structured process.</h2>
+        <div class="industries-head">
+          <h2 id="industries-title">What we can source.</h2>
+          <p>From standard materials to parts made to drawing, we match the search to your specifications and order size.</p>
+        </div>
+        <div class="industries-grid">
+          <dl class="market-list">
+          <div><dt>Industrial &amp; engineering</dt><dd>Machined parts, castings and fasteners</dd></div>
+          <div><dt>Building &amp; fit-out</dt><dd>Metal profiles, fixtures and finishes</dd></div>
+          <div><dt>Electrical &amp; hardware</dt><dd>Cable accessories, connectors and enclosures</dd></div>
+          <div><dt>Hospitality</dt><dd>Linen, tableware and guest supplies</dd></div>
+          <div><dt>Packaging &amp; custom products</dt><dd>Cartons, labels and products made to specification</dd></div>
+          </dl>
+          <aside class="example" aria-labelledby="example-title">
+            <p class="example-label">Illustrative sourcing brief</p>
+            <h3 id="example-title">2,000 aluminium brackets, made to drawing.</h3>
+            <p>Delivery to the UAE. Finish and hole tolerances must match the approved sample.</p>
+            <dl>
+              <div><dt>Capability</dt><dd>Can the supplier hold the tolerance after finishing?</dd></div>
+              <div><dt>Quote</dt><dd>Does the price include tooling, finishing and the first sample?</dd></div>
+              <div><dt>Timing</dt><dd>Does the lead time start before or after sample approval?</dd></div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="process-head">
+          <h2 id="process-title">From brief to<br class="desktop-break"> purchase decision.</h2>
+          <p>We work from your brief and flag open questions at each stage. You decide which commitments to approve.</p>
+        </div>
         <ol class="steps">
-          <li><span aria-hidden="true">01</span><h3>Share your requirement</h3><p>Tell us the product, specification, quantity and destination.</p></li>
-          <li><span aria-hidden="true">02</span><h3>Find and evaluate</h3><p>We identify manufacturers and review available evidence of capability.</p></li>
-          <li><span aria-hidden="true">03</span><h3>Compare the options</h3><p>Review quotes, lead times, trade terms and any unanswered questions.</p></li>
-          <li><span aria-hidden="true">04</span><h3>Agree terms and order</h3><p>We help negotiate and coordinate samples. You approve commitments and choose whether to order.</p></li>
-          <li><span aria-hidden="true">05</span><h3>Follow through</h3><p>We follow up on agreed milestones and coordinate independent inspections where available.</p></li>
+          <li><span aria-hidden="true">01</span><h3>Define the requirement</h3><p>We clarify the product, specification, target quantity and destination. You agree the scope and fees before work starts.</p></li>
+          <li><span aria-hidden="true">02</span><h3>Shortlist manufacturers</h3><p>We identify suppliers who fit the brief, review available evidence and request comparable quotes.</p></li>
+          <li><span aria-hidden="true">03</span><h3>Review the trade-offs</h3><p>We flag differences in price, scope and delivery terms. We can coordinate samples or independent checks.</p></li>
+          <li><span aria-hidden="true">04</span><h3>Decide whether to order</h3><p>You choose the supplier and approve commitments. We can follow up on agreed production milestones.</p></li>
         </ol>
+        <p id="about" class="scope"><strong>Independent and buyer-side.</strong> The manufacturer produces the goods. Independent providers perform inspections when arranged, and designated partners handle freight and customs.</p>
       </div>
     </section>
 
-    <section id="about" class="about" aria-labelledby="about-title">
-      <div class="wrap about-inner">
-        <div class="about-copy">
-          <p class="section-label">Why TRUSS</p>
-          <h2 id="about-title">More than a supplier list.</h2>
-          <ul class="trust-list">
-          <li><svg class="icon small" aria-hidden="true"><use href="#i-tick"/></svg>Independent, buyer-side representation</li>
-          <li><svg class="icon small" aria-hidden="true"><use href="#i-tick"/></svg>Structured review of suppliers and their capabilities</li>
-          <li><svg class="icon small" aria-hidden="true"><use href="#i-tick"/></svg>Scope and fees agreed before work begins</li>
-          <li><svg class="icon small" aria-hidden="true"><use href="#i-tick"/></svg>Comparable quotes with exclusions made visible</li>
-          <li><svg class="icon small" aria-hidden="true"><use href="#i-tick"/></svg>Buyer approval before commitments</li>
-          </ul>
+    <section class="section faq wrap" id="faq" aria-labelledby="faq-title">
+      <div class="section-grid">
+        <div class="section-intro">
+          <h2 id="faq-title">Questions before you start.</h2>
+        </div>
+        <div class="faq-list">
+          <details><summary>What should I send to get started?</summary><p>Share the product or material, approximate quantity and delivery country. A drawing, photo, specification or required date helps if you have one.</p></details>
+          <details><summary>How are sourcing fees agreed?</summary><p>Fees depend on the work you need, such as a shortlist, quote comparison or order support. We agree the scope and fees before work starts and flag separate supplier or third-party costs.</p></details>
+          <details><summary>Which countries can you source from?</summary><p>We consider international markets based on manufacturing capability, order quantity, destination and applicable requirements. We discuss suitable markets after reviewing your brief.</p></details>
+          <details><summary>Can you help with small runs or custom orders?</summary><p>It depends on the material, tooling and manufacturer’s minimum order. We can ask about samples or pilot runs and compare their cost and lead time.</p></details>
+          <details><summary>Who carries out quality inspections?</summary><p>Where available, we coordinate independent third-party inspections against your agreed checklist. The inspection provider carries out the work and you decide whether the evidence is sufficient.</p></details>
+          <details><summary>Who handles supplier payments, freight and customs?</summary><p>Supplier payments follow the terms you approve with the manufacturer. Freight and customs are handled by the parties designated under the agreed trade terms. We can clarify those responsibilities during sourcing.</p></details>
         </div>
       </div>
-      <img class="about-media" src="assets/factory-review.webp" width="1000" height="667" loading="lazy" alt="Two people review an engineering drawing during a factory visit.">
     </section>
 
-    <section class="example" aria-labelledby="example-title">
-      <div class="wrap example-inner">
-        <div>
-          <p class="section-label">Illustrative Brief</p>
-          <h2 id="example-title">Machined aluminium brackets.</h2>
-          <p>Sample enquiry for parts made to drawing.</p>
-        </div>
-        <dl class="example-facts">
-          <div><dt>Quantity</dt><dd>2,000 units</dd></div>
-          <div><dt>Destination</dt><dd>UAE</dd></div>
-          <div><dt>Quote check</dt><dd>Tooling &amp; finish</dd></div>
-          <div><dt>Sample check</dt><dd>Hole tolerances</dd></div>
-        </dl>
-      </div>
-    </section>
-
-    <section class="closing dark-section" aria-label="Questions and enquiries">
-      <div class="wrap closing-inner">
-        <section id="faq" class="faq" aria-labelledby="faq-title">
-          <p class="section-label">FAQ</p>
-          <h2 id="faq-title">Common questions.</h2>
-          <div class="faq-list">
-          <details><summary>How do you charge for sourcing?</summary><p>Fees depend on the scope, such as a shortlist, a full quotation comparison or ongoing order support. We agree the scope and fees before work begins and flag supplier or third-party costs for your approval.</p></details>
-          <details><summary>Which countries do you source from?</summary><p>We consider international supply markets based on manufacturing capability, quantity, destination and applicable requirements. Once we have your brief, we discuss which markets make sense.</p></details>
-          <details><summary>Can you support samples and quality checks?</summary><p>We help arrange supplier samples and, where available, coordinate inspections carried out by independent third-party providers. You decide whether the evidence meets your requirements.</p></details>
-            <details class="more-faq">
-              <summary>More questions</summary>
-              <div>
-          <details><summary>Can you help with small or custom orders?</summary><p>That depends on tooling, materials and supplier minimums. We can ask about samples or pilot runs and compare how order size affects cost and lead time.</p></details>
-          <details><summary>Who handles supplier payments, freight and customs?</summary><p>Supplier payments follow the terms you approve with the manufacturer. The designated parties handle freight and customs under the agreed trade terms. We can help clarify responsibilities.</p></details>
-          <details><summary>What do I need to get started?</summary><p>A product description, target quantity and delivery country are a good start. Send a drawing, photo, material specification or applicable standard if you have one.</p></details>
-              </div>
-            </details>
-          </div>
-        </section>
-
-        <section id="contact" class="contact" aria-labelledby="contact-title">
-          <h2 id="contact-title">Start your sourcing request</h2>
-          <p>Share what you need. Review and send your enquiry in WhatsApp.</p>
-          <form class="brief" id="sourcing-brief" action="https://wa.me/971564769416" method="get" target="_blank" rel="noopener noreferrer" aria-labelledby="contact-title" hidden>
-            <div class="brief-fields">
-              <label class="wide"><span class="sr-only">Product or requirement</span><input data-brief="Product or requirement" type="text" maxlength="160" placeholder="Product / Requirement"></label>
-              <label><span class="sr-only">Approximate quantity</span><input data-brief="Quantity" type="text" maxlength="48" placeholder="Quantity (approx.)"></label>
-              <label><span class="sr-only">Destination country</span><input data-brief="Destination" type="text" maxlength="90" autocomplete="country-name" placeholder="Destination country"></label>
-            </div>
-            <input type="hidden" name="text" value="Hi TRUSS, I’d like to discuss a sourcing requirement.">
-            <button class="button button-gold" type="submit">Continue to WhatsApp <svg class="icon small" aria-hidden="true"><use href="#i-arrow"/></svg></button>
-          </form>
-          <a class="button button-gold direct-contact" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99d%20like%20to%20share%20a%20product%20requirement%20and%20discuss%20the%20next%20steps." target="_blank" rel="noopener noreferrer">Chat on WhatsApp <svg class="icon small" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact-grid">
+        <div class="contact-copy">
+          <h2 id="contact-title">What do you need to source?</h2>
+          <p>Start with the product, quantity and destination. You can attach drawings or specifications in WhatsApp.</p>
+          <a class="button button-primary" href="https://wa.me/971564769416?text=Hi%20TRUSS%2C%20I%E2%80%99d%20like%20to%20share%20a%20product%20requirement%20and%20discuss%20the%20next%20steps." target="_blank" rel="noopener noreferrer">Chat on WhatsApp <svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></a>
           <p class="contact-number">+971 56 476 9416</p>
-        </section>
+        </div>
+        <form class="brief" id="sourcing-brief" action="https://wa.me/971564769416" method="get" target="_blank" rel="noopener noreferrer" aria-labelledby="brief-title" hidden>
+          <h3 id="brief-title">Prepare your brief</h3>
+          <p>Share what you know. Review your message in WhatsApp before sending.</p>
+          <div class="brief-fields">
+            <label class="wide">Product or requirement <input data-brief="Product or requirement" type="text" maxlength="160" placeholder="e.g. Machined aluminium brackets"></label>
+            <label>Approximate quantity <input data-brief="Quantity" type="text" maxlength="48" placeholder="e.g. 2,000 pieces"></label>
+            <label>Destination country <input data-brief="Destination" type="text" maxlength="90" autocomplete="country-name" placeholder="e.g. UAE"></label>
+          </div>
+          <input type="hidden" name="text" value="Hi TRUSS, I’d like to discuss a sourcing requirement.">
+          <button class="button button-primary" type="submit">Open brief in WhatsApp <svg class="icon" aria-hidden="true"><use href="#i-out"/></svg></button>
+        </form>
       </div>
     </section>
   </main>
@@ -221,7 +169,7 @@
     <div class="wrap footer-inner">
       <a class="brand" href="#top" aria-label="TRUSS, back to top"><svg aria-hidden="true"><use href="#i-mark"/></svg><span>TRUSS</span></a>
       <p>Independent international sourcing &amp; procurement.</p>
-      <a class="back-top" href="#top">Back to top <svg class="icon small" aria-hidden="true"><use href="#i-out"/></svg></a>
+      <a class="back-top" href="#top">Back to top ↑</a>
     </div>
   </footer>
 </body>
