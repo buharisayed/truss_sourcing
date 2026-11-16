@@ -123,7 +123,7 @@ h1, h2, .example h3, .brief h3 {
 h1 { font-size: clamp(4.3rem, 7.05vw, 7.25rem); line-height: .91; }
 .hero-copy { padding-bottom: 3px; }
 .hero-copy p { margin-bottom: 21px; color: var(--muted); font-size: clamp(1rem, 1.29vw, 1.16rem); line-height: 1.48; }
-.hero-figure picture { display: block; background: #bdbaaa; overflow: hidden; }
+.hero-figure picture { display: block; background: #245573; overflow: hidden; }
 .hero-figure img { width: 100%; height: auto; aspect-ratio: 3 / 1; object-fit: cover; object-position: 50% 52%; }
 .hero-figure figcaption {
   display: flex;
@@ -145,6 +145,21 @@ h2 { font-size: clamp(2.5rem, 4.9vw, 5.2rem); line-height: .99; }
 .section-intro h2 { max-width: 10ch; }
 .section-intro p { max-width: 32ch; margin-top: 17px; color: var(--muted); font-size: 1.08rem; }
 
+.service-photo { margin-top: clamp(22px, 3vw, 40px); }
+.service-photo img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.64;
+  object-fit: cover;
+  object-position: 47% 49%;
+  background: var(--wash);
+}
+.service-photo figcaption, .product-photos figcaption {
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: .82rem;
+}
+
 .service-list { list-style: none; padding: 0; border-top: 1px solid var(--line); }
 .service-list li {
   display: grid;
@@ -163,12 +178,27 @@ h2 { font-size: clamp(2.5rem, 4.9vw, 5.2rem); line-height: .99; }
 .industries-head, .process-head { display: grid; grid-template-columns: minmax(0, 1.48fr) minmax(0, .62fr); align-items: end; gap: 20px clamp(30px, 7vw, 100px); }
 .industries-head > p, .process-head > p { max-width: 33ch; color: var(--muted); font-size: 1.08rem; padding-bottom: 4px; }
 .industries-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .92fr); gap: clamp(30px, 5vw, 76px); margin-top: clamp(24px, 4.2vw, 62px); align-items: start; }
+.industries-grid { --product-photo-height: clamp(134px, 14.5vw, 218px); }
+.product-photos {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+  gap: 12px clamp(10px, 1.5vw, 22px);
+  margin-bottom: 21px;
+}
+.product-photos img, .example-photo {
+  width: 100%;
+  height: var(--product-photo-height);
+  object-fit: cover;
+}
+.product-photos img { background: #d9dbd1; }
+.example-photo { object-position: 50% 59%; background: #d2d3ce; }
 .market-list { border-top: 1px solid var(--line); }
 .market-list div { padding-block: 15px; border-bottom: 1px solid var(--line); }
 .market-list dt { font-size: 1.13rem; font-weight: 700; }
 .market-list dd { color: var(--muted); margin-top: 2px; line-height: 1.35; }
 
-.example { padding: clamp(24px, 3.3vw, 46px); background: var(--champagne); color: var(--forest); }
+.example { background: var(--champagne); color: var(--forest); }
+.example-content { padding: clamp(24px, 3.3vw, 46px); }
 .example-label { font-size: .86rem; font-weight: 750; }
 .example h3 { margin-block: 8px 12px; font-size: clamp(1.7rem, 3vw, 3.08rem); line-height: 1.01; }
 .example p:not(.example-label) { font-size: .97rem; }
@@ -250,6 +280,9 @@ h2 { font-size: clamp(2.5rem, 4.9vw, 5.2rem); line-height: .99; }
   .hero-copy { padding: 0; max-width: 410px; }
   .hero-copy p { margin-bottom: 15px; }
   .hero-figure img { aspect-ratio: 1.72; }
+  .service-photo { max-width: 480px; }
+  .industries-grid { --product-photo-height: clamp(115px, 29vw, 215px); }
+  .example-photo { height: clamp(165px, 34vw, 240px); }
   .hero-figure figcaption { font-size: .77rem; }
   .hero-figure figcaption a { flex-shrink: 0; }
   .hero-figure figcaption span { text-align: right; }

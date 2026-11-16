@@ -20,8 +20,14 @@ Edit page content and direct WhatsApp messages in `dist/index.html`. The optiona
 
 ## Assets
 
-Bricolage Grotesque and DM Sans are self-hosted under the SIL Open Font License. Both licenses are in `dist/assets/`. The technical sample-review photograph is AI-generated and illustrates the process. It does not depict TRUSS staff or a client project.
+Bricolage Grotesque and DM Sans are self-hosted under the SIL Open Font License. Both licenses are in `dist/assets/`.
 
-Image brief used with the built-in image generator
+The photographs are illustrative. They show international trade, sample measurement and examples of products or materials. They do not show assets operated by TRUSS, its staff, or actual client projects.
 
-> Generate a single photoreal ultra-wide panoramic editorial photograph for an independent international sourcing advisory website. Frame like a contemporary industrial-design annual, about 2.5:1 landscape, with the important subjects contained in the central horizontal band. Two adult professionals at a long pale stone workbench, visible only from shoulders down, one in a textured dark forest work shirt and one in a pale natural shirt. Their natural hands inspect one small CNC-machined aluminum housing over a clean technical print at the center-left. On right, a caliper and two specific, neatly spaced sample finish swatches. The space is a bright design studio, with gently directional daylight, clean ivory surfaces and deliberate shadows. Shoot at a low oblique angle so the forearms and technical drawing lead the eye across the frame; include open table room at either end, spare composition with tactile realism, one clear visual focal point, subtle analog grain, deep green and silver accents on a bone-white palette. The scene should communicate a buyer evaluating options alongside technical details. No posed handshake, no cargo, no factory backdrop, no helmets, no sterile stock photo smiles, no visible brand or words, no overlays, and no webpage mockup.
+### Photo credits
+
+- Container ship near Curaçao by [Bent Van Aeken](https://unsplash.com/photos/an-aerial-view-of-a-cargo-ship-in-the-ocean-0A7YwYhZhWw) · [Unsplash License](https://unsplash.com/license)
+- Workshop sample measurement by [Antoni Shkraba](https://www.pexels.com/photo/high-angle-shot-of-person-measuring-an-object-7166998/) · [Pexels License](https://www.pexels.com/license/)
+- Hospitality linen by [Mads Leif Hansen](https://unsplash.com/photos/stack-of-clean-white-towels-on-a-surface-qPNgpYUCW0c) · [Unsplash License](https://unsplash.com/license)
+- Corrugated packaging by [Egor Komarov](https://unsplash.com/photos/a-closed-white-cardboard-box-on-a-white-surface-73rC6UnE4Ko) · [Unsplash License](https://unsplash.com/license)
+- Aluminium milling by [aluminum Zheng ji](https://unsplash.com/photos/a-machine-that-is-cutting-a-piece-of-metal-sxtClAGwRck) · [Unsplash License](https://unsplash.com/license)
